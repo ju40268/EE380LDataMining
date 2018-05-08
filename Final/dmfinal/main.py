@@ -37,9 +37,9 @@ def create():
 # @app.route('/')
 # def main():
 #     return render_template('stats.html')
-# @app.route('/percent')
-# def percent():
-#     return  render_template('percent.html')
+@app.route('/percent')
+def percent():
+    return  render_template('stats.html')
 
 if __name__ == "__main__":
     app.run()
